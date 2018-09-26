@@ -1,4 +1,6 @@
 # Summary and Assignment 1 Screenshots
+
+## Summary of HW3 Work
 I worked on my own for HW3 (though I hope to collaborate more in the future as I get to know my classmates better). 
 
 For Assignment 1, I created a csv locally and on GitHub, and then I deleted it on both, including its full history. This was practice for needing to fully delete sensitive data that accidentally made its way onto GitHub. 
