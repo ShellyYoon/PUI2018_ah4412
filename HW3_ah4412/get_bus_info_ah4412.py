@@ -36,11 +36,12 @@ VA = dataDict['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['Vehicl
 
 # open csv to write
 fout = open(csv_name, "w")
-
+    
 # write selected data to csv
 for i, value in enumerate(VA):
     thisline = "%s,%s,%s,%s" %(VA[i]['MonitoredVehicleJourney']['VehicleLocation']['Latitude'],VA[i]['MonitoredVehicleJourney']['VehicleLocation']['Longitude'],VA[i]['MonitoredVehicleJourney']['OnwardCalls']['OnwardCall'][0]['StopPointName'],VA[i]['MonitoredVehicleJourney']['OnwardCalls']['OnwardCall'][0]['Extensions']['Distances']['PresentableDistance'])
     fout.write(thisline.strip(',')+"\n")
+
 
 
 
