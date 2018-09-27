@@ -25,19 +25,19 @@ data = response.read().decode("utf-8")
 dataDict = json.loads(data)
 
 # save some names to shorten later commands
-VMD = dataDict['Siri']['ServiceDelivery']['VehicleMonitoringDelivery']
-pub_bl = VMD[0]['VehicleActivity'][0]['MonitoredVehicleJourney']['PublishedLineName']
+VA = dataDict['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity']
+pub_bl = VA[0]['MonitoredVehicleJourney']['PublishedLineName']
 
 
 # print bus line number
 print("Bus Line: ", pub_bl)
 
 # print number of active vehicles
-print("Number of Active Buses: ", len(VMD))
+print("Number of Active Buses: ", len(VA))
 
 # run for loop to print each vehicle's location
-for i in range(len(VMD)):
-    print("Bus ", i, "is at latitude ", VMD[i]['VehicleActivity'][0]['MonitoredVehicleJourney']['VehicleLocation']['Latitude'], " and longitude ", VMD[i]['VehicleActivity'][0]['MonitoredVehicleJourney']['VehicleLocation']['Longitude'])
+for i in range(len(VA)):
+    print("Bus ", i, "is at latitude ", VA[i]['MonitoredVehicleJourney']['VehicleLocation']['Latitude'], " and longitude ", VA[i]['MonitoredVehicleJourney']['VehicleLocation']['Longitude'])
              
              
              
