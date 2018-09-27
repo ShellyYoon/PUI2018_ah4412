@@ -7,7 +7,9 @@ For Assignment 1, I created a csv locally and on GitHub, and then I deleted it o
 
 For Assignment 2, I made a jupyter notebook, in which I downloaded a csv dataset from NYC Open Data, read it into the notebook using pandas, examined it by rendering tables, reducted it to two numeric columns, and finally created a scatterplot from those columns, complete with proper labels and captions.
 
-For Assignment 3, I first obtained an API key from MTA via filling out a form and receiving the key by email. 
+For Assignment 3, I first obtained an API key from MTA via filling out a form and receiving the key by email. Then I created a python script that uses the user's API and bus line as arguments and pulls up the number of buses currently running on the bus line along with their locations.
+
+For Assignment 4, I created a python script that took API key, bus line, and csv name as arguments and wrote out and saved a csv file showing each bus's next stop information.
 
 
 ## Assignment 1: Deleting the full history of a csv on GitHub
