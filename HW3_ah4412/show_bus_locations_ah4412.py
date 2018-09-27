@@ -19,9 +19,6 @@ busline = sys.argv[2]
 # set url to retrieve data
 url = "http://bustime.mta.info/api/siri/vehicle-monitoring.json?key=%s&VehicleMonitoringDetailLevel=calls&LineRef=%s"%(apikey, busline)
 
-# print url
-print(url)
-
 # retrieve data and save as dictionary
 response = urllib.urlopen(url)
 data = response.read().decode("utf-8")
