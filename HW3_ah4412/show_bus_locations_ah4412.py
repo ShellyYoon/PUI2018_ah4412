@@ -12,7 +12,7 @@ try:
 except ImportError:
     import urllib.request as urllib
 
-# set variables to be entered into url
+# set arguments to be entered into url
 apikey = sys.argv[1]
 busline = sys.argv[2]
 
@@ -36,7 +36,7 @@ print("Bus Line: ", pub_bl)
 print("Number of Active Buses: ", len(VA))
 
 # run for loop to print each vehicle's location
-for i in range(len(VA)):
+for i, value in enumerate(VA):
     print("Bus ", i, "is at latitude ", VA[i]['MonitoredVehicleJourney']['VehicleLocation']['Latitude'], " and longitude ", VA[i]['MonitoredVehicleJourney']['VehicleLocation']['Longitude'])
              
              
