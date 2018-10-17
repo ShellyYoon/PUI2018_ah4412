@@ -1,9 +1,14 @@
 # HW6
 
-**Team:** Andrea Hassler, Jerome Louison
+**Team:** Andrea Hassler (ah4412), Jerome Louison (jl9489), Tiffany Patafio (tp1600)
 
-## Assignment 1
-## Assignment 2
+## Assignment 1: Completed individually
+In this assignment, we pulled another student's repository containing their HW4 assignment on CitiBike data. We evaluated their hypotheses, their processing of the data, and suggested a test to use.
+
+## Assignment 2: Completed by Andrea (ah4412) and Jerome (jl9489)
+
+
+
 
 | **Statistical Analyses**	|  **IV(s)**  |  **IV type(s)** |  **DV(s)**  |  **DV type(s)**  |  **Control Var** | **Control Var type**  | **Question to be answered** | **_H0_** | **alpha** | **link to paper**| 
 |:----------:|:----------|:------------|:-------------|:-------------|:------------|:------------- |:------------------|:----:|:-------:|:-------|
