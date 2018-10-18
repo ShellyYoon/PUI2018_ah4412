@@ -3,9 +3,13 @@
 **Team:** Andrea Hassler (ah4412), Jerome Louison (jl9489), Tiffany Patafio (tp1600)
 
 ## Assignment 1: Completed individually
-In this assignment, we pulled another student's repository containing their HW4 assignment on CitiBike data. We evaluated their hypotheses, their processing of the data, and suggested a test to use.
+In this assignment, we forked another student's repository containing their HW4 assignment on CitiBike data. We evaluated their hypotheses, their processing of the data, and suggested a test to use. Then we made a pull request to the original owner.
 
-## Assignment 2: Completed by Andrea (ah4412) and Jerome (jl9489)
+Forked repository located here: AHassler/PUI2018_yy2908
+Markdown file with review located here: AHassler/PUI2018_yy2908/HW4_yy2908/CitibikeReview_ah4412.md
+
+## Assignment 2: Completed by Jerome (jl9489) with corrections and additions made by Andrea (ah4412)
+In this assignment, we searched for papers that used tests from 3 categories. We then documented the tests, variables, variables types, question answered, and H0 and alpha. We stored this information in the table below.
 
 
 
