@@ -1,12 +1,13 @@
-# HW8
-All work done independently
-
-## Assignment 1: Rendering a plot
-In this assignment, we created a plot from urban data, keeping in mind data visualization best practices. The reproducible code to rendered the plot is stored in Assignment1_ah4412.ipynb within this directory. Below is a copy of the plot with a caption.  
+# ah4412_plotReview_yy2908.md
 
 ![Image missing](water_plot.png)  
 
 **Figure 1:** The plot above shows New York City per capita water consumption by year from 1979 to 2017. Though initially turbulent, the plot shows a general downward trend over time. This may reflect improvements in water efficiency, as well as conscious water conservation efforts.  
 
-## Assignment 2: Finish CitiBike Analysis
-In this assignment, we finished analyzing the citibike data from a previous homework, incorporating our "referee's" comments into our choices. Then we wrote up a report in Authorea. I incorporated my referee's suggestion to use tripduration as the measurement, rather than proportion of trips taken. I decided to use means and a t test rather than proportions and a z test. [Here](https://www.authorea.com/users/249695/articles/336119-hw8-assignment-2-citibike-analysis#) is the link to my Authorea report.
+
+First of all,The topic is useful and plot is easy to read. Also has the explain and labels of x and y axis. There is no fault of the polt. 
+I noticed that there are Year, New York City Population, NYC Consumption(Million gallons per day), Per Capita(Gallons per person per day)-these four columns. So if you have more time or wanna do a deeper topic, following recommandations are from my perspective, and you could have a try.
+1)Compare the change of NYC population with increase rate or decrease rate of per capita. And do some simply analysis.
+2)Could we get the data including more factors and information? Like the borough? We could take advantage of borough data and NYC consumption data to make the geodataframe. And use the different color to show the rate of per capita.
+
+To sum up, that is a nice plot. And above recommandation need more time to figure out.
